@@ -1,0 +1,401 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - BnsBazar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link id="themeStyle" rel="stylesheet" href="~/css/primary-theme.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/font-awesome/css/all.css" />
+    <style>
+        /* =========================
+           BRAND (LOGO + BnsBazar)
+        ========================= */
+        .navbar-brand span {
+            font-size: 1.8rem;
+            font-weight: 900; /* MAX */
+            letter-spacing: 1px;
+        }
+
+        /* =========================
+           ALL NAV BUTTONS (TOP + MENU)
+        ========================= */
+        .theme-navbar-link,
+        .navbar-nav .nav-link,
+        .navbar-auth .nav-link,
+        #btnTheme {
+            font-size: 1.25rem; /* BIG */
+            font-weight: 900; /* ULTRA BOLD */
+            letter-spacing: 0.8px;
+            padding: 1.1rem 1.4rem !important;
+            line-height: 1.2;
+        }
+
+        /* =========================
+           DROPDOWN BUTTONS
+        ========================= */
+        .dropdown-toggle {
+            font-weight: 900;
+        }
+
+        /* =========================
+           DROPDOWN ITEMS
+        ========================= */
+        .dropdown-menu .dropdown-item {
+            font-size: 1.15rem;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+            padding: 0.9rem 1.4rem;
+        }
+
+        /* =========================
+           RIGHT SIDE (THEME / LOGIN / SIGN UP)
+        ========================= */
+        #btnTheme {
+            border-bottom: 4px solid currentColor;
+            background: transparent;
+        }
+
+        /* =========================
+           HOVER (CLEAR FEEDBACK)
+        ========================= */
+        .theme-navbar-link:hover,
+        .dropdown-item:hover {
+            font-weight: 900;
+            text-decoration: underline;
+        }
+
+        /* =========================
+           MOBILE VIEW (VERY IMPORTANT)
+        ========================= */
+        @@media (max-width: 991px) {
+
+            .theme-navbar-link,
+            .navbar-nav .nav-link {
+                font-size: 1.35rem; /* HUGE for mobile */
+                font-weight: 900;
+                padding: 1.2rem 0 !important;
+            }
+
+            .dropdown-menu .dropdown-item {
+                font-size: 1.25rem;
+                font-weight: 800;
+            }
+        }
+        /* =========================
+           FIX MOBILE TOP-RIGHT OVERFLOW
+        ========================= */
+        @@media (max-width: 480px) {
+            /* Reduce spacing between THEME / Login / Sign Up */
+            .top-auth
+
+        {
+            gap: 0.6rem !important;
+        }
+
+        /* Slightly smaller text so it fits */
+        .top-auth .nav-link,
+        .top-auth #btnTheme {
+            font-size: 0.95rem !important;
+            padding: 0 !important;
+            white-space: nowrap;
+        }
+
+        }
+    </style>
+    <style>
+        /* =========================
+           DESKTOP HOVER – CLEAN (NO UNDERLINE)
+        ========================= */
+        @@media (min-width: 992px) {
+            /* ALL NAV LINKS */
+            .navbar-nav .nav-link {
+                position: relative;
+                transition: background-color 0.25s ease, color 0.25s ease;
+                text-decoration: none !important; /* FORCE remove underline */
+            }
+                /* REMOVE underline pseudo element COMPLETELY */
+                .navbar-nav .nav-link::after {
+                    display: none !important;
+                }
+                /* CLEAN WHITE HOVER BOX (QUT STYLE) */
+                .navbar-nav .nav-link:hover,
+                .navbar-nav .nav-link:focus {
+                    background-color: rgba(255,255,255,0.18); /* white glass box */
+                    border-radius: 0; /* QUT is square */
+                    text-decoration: none !important;
+                }
+            /* DROPDOWN OPEN ON HOVER */
+            .navbar .dropdown:hover > .dropdown-menu {
+                display: block;
+                opacity: 1;
+                transform: translateY(0);
+                pointer-events: auto;
+            }
+
+            .navbar .dropdown-menu {
+                display: block;
+                opacity: 0;
+                transform: translateY(10px);
+                pointer-events: none;
+                transition: all 0.25s ease;
+                margin-top: 0;
+            }
+        }
+
+        /* =========================
+           DROPDOWN ITEM HOVER (WHITE BOX)
+        ========================= */
+        .dropdown-menu .dropdown-item {
+            transition: background-color 0.2s ease, padding-left 0.2s ease;
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: rgba(0,0,0,0.06);
+                padding-left: 1.6rem;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+        /* =========================
+           MOBILE TAP FEEDBACK
+        ========================= */
+        .navbar-nav .nav-link:active {
+            background-color: rgba(255,255,255,0.22);
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100 theme-bg">
+
+    <header>
+        <nav class="theme-bg-colour-1 border-bottom">
+
+            <!-- TOP BAR: Brand left, Auth right (like sample) -->
+            <div class="container-fluid py-2">
+                <div class="d-flex align-items-center justify-content-between">
+
+                    <!-- Brand -->
+                    <a class="navbar-brand d-flex align-items-center gap-2 m-0"
+                       asp-controller="Home"
+                       asp-action="Index">
+                        <img class="nav-logo" src="~/images/Logo.png" alt="Logo" />
+                        <span class="fw-semibold">BnsBazar</span>
+                    </a>
+
+                    <!-- Right buttons -->
+                    <div class="d-flex align-items-center gap-3 top-auth">
+                        <button id="btnTheme"
+                                class="nav-link theme-navbar-link border-0 bg-transparent p-0">
+                            THEME
+                        </button>
+
+                        @if (User.Identity != null && User.Identity.IsAuthenticated)
+                        {
+                            <a class="nav-link theme-navbar-link p-0"
+                               asp-controller="Authentication"
+                               asp-action="Logoff">
+                                Logoff
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="nav-link theme-navbar-link p-0"
+                               asp-controller="Authentication"
+                               asp-action="Login">
+                                Login
+                            </a>
+
+                            <a class="nav-link theme-navbar-link p-0"
+                               asp-controller="Authentication"
+                               asp-action="Create">
+                                Sign Up
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND BAR: Main menu (buttons row) -->
+            <div class="container-fluid border-top">
+                <div class="navbar navbar-expand-lg p-0">
+
+                    <!-- Mobile toggle controls ONLY the menu row -->
+                    <button class="navbar-toggler my-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mainNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link theme-navbar-link"
+                                   asp-controller="Home"
+                                   asp-action="Index">Home</a>
+                            </li>
+
+                            <!-- REAL ESTATE -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle theme-navbar-link"
+                                   href="#"
+                                   data-bs-toggle="dropdown">
+                                    RealEstate
+                                </a>
+                                <ul class="dropdown-menu shadow-lg">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="RealEstate"
+                                           asp-route-type="House">🏠 घर (House)</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="RealEstate"
+                                           asp-route-type="Land">🏞️ जग्गा (Land)</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+
+                            <!-- AUTOMOBILE -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle theme-navbar-link"
+                                   href="#"
+                                   data-bs-toggle="dropdown">
+                                    Automobile
+                                </a>
+                                <ul class="dropdown-menu shadow-lg">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Automobile"
+                                           asp-route-type="Car">🚗 कार (Car)</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Automobile"
+                                           asp-route-type="Bike">🏍️ बाइक (Bike)</a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+
+                            <!-- ELECTRICAL / ELECTRONICS -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle theme-navbar-link"
+                                   href="#"
+                                   data-bs-toggle="dropdown">
+                                    Electrical / Electronics
+                                </a>
+                                <ul class="dropdown-menu shadow-lg">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Electronics"
+                                           asp-route-type="Electronics">🔌 Electrical</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Electronics"
+                                           asp-route-type="Electronics">📺 Electronics</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    
+                                </ul>
+                            </li>
+
+                            <!-- COMPUTER / LAPTOP -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle theme-navbar-link"
+                                   href="#"
+                                   data-bs-toggle="dropdown">
+                                    Computer / Laptop
+                                </a>
+                                <ul class="dropdown-menu shadow-lg">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Computer"
+                                           asp-route-type="Computer">🖥️ Computer</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Advertisement"
+                                           asp-action="Browse"
+                                           asp-route-module="Computer"
+                                           asp-route-type="Computer">💻 Laptop</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    
+                                </ul>
+                            </li>
+
+                            <!-- MOBILE -->
+<li class="nav-item">
+    <a class="nav-link theme-navbar-link"
+       asp-controller="Advertisement"
+       asp-action="Browse"
+       asp-route-module="Mobile"
+       asp-route-type="Mobile">
+         Mobile
+    </a>
+</li>
+
+<!-- OTHER ITEMS -->
+<li class="nav-item">
+    <a class="nav-link theme-navbar-link"
+       asp-controller="Advertisement"
+       asp-action="Browse"
+       asp-route-module="Other"
+       asp-route-type="Other">
+         Other Items
+    </a>
+</li>
+                            <li class="nav-item">
+                                <a class="nav-link theme-navbar-link"
+                                   asp-controller="Home"
+                                   asp-action="Privacy">Privacy</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link theme-navbar-link"
+                                   asp-controller="Home"
+                                   asp-action="About">About</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4 flex-fill">
+        @RenderBody()
+    </main>
+
+    <footer class="mt-auto border-top py-3 text-center text-muted">
+        &copy; @DateTime.Now.Year - BnsBazar.com |
+        <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

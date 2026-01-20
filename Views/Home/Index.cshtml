@@ -1,0 +1,75 @@
+﻿@model IEnumerable<BnsBazarApp.Models.Advertisement>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- =========================
+   ACTION BAR (SEARCH + ADD)
+========================= -->
+<div class="home-action-bar mb-4 p-3 rounded shadow-sm">
+
+    <form asp-controller="Advertisement"
+          asp-action="Browse"
+          method="get"
+          class="row g-2 align-items-center">
+
+        <!-- KEYWORD SEARCH -->
+        <div class="col-md-4">
+            <input type="text"
+                   name="q"
+                   class="form-control form-control-lg"
+                   placeholder="🔍 खोज्नुहोस् (घर, गाडी, मोबाइल…)" />
+        </div>
+
+        <!-- LOCATION SEARCH -->
+        <div class="col-md-3">
+            <input type="text"
+                   name="location"
+                   class="form-control form-control-lg"
+                   placeholder="📍 स्थान (Kathmandu, Pokhara…)" />
+        </div>
+
+        <!-- SEARCH BUTTON -->
+        <div class="col-md-2 d-grid">
+            <button type="submit"
+                    class="btn btn-primary btn-lg fw-bold">
+                खोज्नुहोस्
+            </button>
+        </div>
+
+        <!-- ADD ADVERTISEMENT -->
+        <div class="col-md-3 d-grid">
+            <a asp-controller="Advertisement"
+               asp-action="Create"
+               class="btn btn-success btn-lg fw-bold">
+                📝 नयाँ विज्ञापन दर्ता
+            </a>
+        </div>
+    </form>
+</div>
+
+<!-- =========================
+   ALL ADVERTISEMENTS
+========================= -->
+<h2 class="text-center ad-heading mb-4">
+    📢 सम्पूर्ण विज्ञापन
+</h2>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-muted">
+        हाल कुनै विज्ञापन उपलब्ध छैन।
+    </p>
+}
+else
+{
+    <div class="row">
+        @foreach (var ad in Model)
+        {
+            <div class="col-md-6 col-lg-4 mb-4">
+                @await Html.PartialAsync("_AdCard", ad)
+            </div>
+        }
+    </div>
+}

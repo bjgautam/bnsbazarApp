@@ -1,0 +1,18 @@
+﻿
+:root {
+    /* Light mode theme */
+    --theme-colour-0: #C3D7FF; /* Page background */
+    --theme-colour-1: #E3ECFF; /* Card background (not too bright) */
+    --theme-colour-2: #1463B0; /* Accent color */
+    /* Text contrast */
+    --theme-text-0: #0D1B2A; /* Main dark text */
+    --theme-text-1: #455A74; /* Sub text */
+    --theme-text-2: #00315E; /* Highlight */
+    /* NAVBAR text */
+    --theme-nav-text: #0B2C3C;
+    --navbar-bg: #C3D7FF;
+    /* PRODUCT CARDS */
+    --theme-card-bg: #E3ECFF;
+    --theme-card-text: #0B1A2B;
+    --theme-card-secondary: #4A637A;
+}

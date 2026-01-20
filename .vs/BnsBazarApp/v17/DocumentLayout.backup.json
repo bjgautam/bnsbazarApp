@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\advertisement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\advertisement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\advertisement\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\advertisement\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\shared\\_adcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\shared\\_adcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\wwwroot\\css\\primary-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:wwwroot\\css\\primary-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\advertisement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\advertisement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\migrations\\20260101011022_addcontactfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:migrations\\20260101011022_addcontactfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\rqnmghvf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\rqnmghvf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\q3yeoqrf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\q3yeoqrf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\data\\bnsbazardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\data\\bnsbazardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-5\\Migrations\\20251219065006_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\models\\repositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:models\\repositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-ready to upload\\Migrations\\20251217202721_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\MyApp\\Migrations\\20251213060516_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazarApp\\Migrations\\20251211192234_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\authentication\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\authentication\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\migrations\\20251226013523_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:migrations\\20251226013523_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|c:\\users\\bjgau\\onedrive\\desktop\\bnsbazar- working on all button-4\\migrations\\20260111013531_allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAF2532-BCAD-45EF-9D7E-9455994648DD}|BnsBazarApp.csproj|solutionrelative:migrations\\20260111013531_allitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\rqnmghvf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\rqnmghvf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\q3yeoqrf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\q3yeoqrf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T01:20:01.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdvertisementController.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\AdvertisementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdvertisementController.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\AdvertisementController.cs",
+              "RelativeToolTip": "Controllers\\AdvertisementController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:21:23.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Advertisement\\Browse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Advertisement\\Browse.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Advertisement\\Browse.cshtml",
+              "RelativeToolTip": "Views\\Advertisement\\Browse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T06:50:14.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Shared\\_AdCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdCard.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Shared\\_AdCard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T06:47:03.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T19:56:17.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Advertisement\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Advertisement\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Advertisement\\Create.cshtml",
+              "RelativeToolTip": "Views\\Advertisement\\Create.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T06:01:52.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "primary-theme.css",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\css\\primary-theme.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\primary-theme.css",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\css\\primary-theme.css",
+              "RelativeToolTip": "wwwroot\\css\\primary-theme.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T02:11:25.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:55:31.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAG8BAAAAAAAAAIBJwIgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-10T05:52:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T04:57:59.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260111013531_Allitems.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20260111013531_Allitems.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260111013531_Allitems.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20260111013531_Allitems.cs",
+              "RelativeToolTip": "Migrations\\20260111013531_Allitems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T01:35:32.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-07T04:23:14.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Advertisement.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Advertisement.cs",
+              "RelativeDocumentMoniker": "Models\\Advertisement.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Advertisement.cs",
+              "RelativeToolTip": "Models\\Advertisement.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA6wCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:32:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T04:17:02.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T02:17:36.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260101011022_AddcontactFields.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20260101011022_AddcontactFields.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260101011022_AddcontactFields.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20260101011022_AddcontactFields.cs",
+              "RelativeToolTip": "Migrations\\20260101011022_AddcontactFields.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T01:10:22.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20251226013523_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20251226013523_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251226013523_Initial.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Migrations\\20251226013523_Initial.cs",
+              "RelativeToolTip": "Migrations\\20251226013523_Initial.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T01:35:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Repositories\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\AuthenticationRepository.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Repositories\\AuthenticationRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\AuthenticationRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvy0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:03:00.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "rqnmghvf.sql ",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\rqnmghvf.sql",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\rqnmghvf.sql",
+              "ToolTip": "rqnmghvf.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-23T03:01:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "q3yeoqrf.sql ",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\obj\\Debug\\net8.0\\q3yeoqrf.sql",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\q3yeoqrf.sql",
+              "ToolTip": "q3yeoqrf.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-21T12:54:59.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T04:39:02.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BnsBazarDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Data\\BnsBazarDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\BnsBazarDbContext.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Data\\BnsBazarDbContext.cs",
+              "RelativeToolTip": "Models\\Data\\BnsBazarDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:24:14.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:03:58.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251219065006_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-5\\Migrations\\20251219065006_Initial.cs",
+              "RelativeDocumentMoniker": "..\\BnsBazar-5\\Migrations\\20251219065006_Initial.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-5\\Migrations\\20251219065006_Initial.cs",
+              "RelativeToolTip": "..\\BnsBazar-5\\Migrations\\20251219065006_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:50:07.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\DTOs\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\DTOs\\CreateUserDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:25:08.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Repositories\\IAuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\IAuthenticationRepository.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Models\\Repositories\\IAuthenticationRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\IAuthenticationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:27:23.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20251217202721_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-ready to upload\\Migrations\\20251217202721_Initial.cs",
+              "RelativeDocumentMoniker": "..\\BnsBazar-ready to upload\\Migrations\\20251217202721_Initial.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar-ready to upload\\Migrations\\20251217202721_Initial.cs",
+              "RelativeToolTip": "..\\BnsBazar-ready to upload\\Migrations\\20251217202721_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T20:27:21.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20251213060516_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\MyApp\\Migrations\\20251213060516_Initial.cs",
+              "RelativeDocumentMoniker": "..\\MyApp\\Migrations\\20251213060516_Initial.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\MyApp\\Migrations\\20251213060516_Initial.cs",
+              "RelativeToolTip": "..\\MyApp\\Migrations\\20251213060516_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T06:05:16.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAIBJwEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T04:59:21.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T10:39:15.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20251211192234_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazarApp\\Migrations\\20251211192234_Initial.cs",
+              "RelativeDocumentMoniker": "..\\BnsBazarApp\\Migrations\\20251211192234_Initial.cs",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazarApp\\Migrations\\20251211192234_Initial.cs",
+              "RelativeToolTip": "..\\BnsBazarApp\\Migrations\\20251211192234_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:22:34.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Authentication\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Authentication\\Create.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T04:41:53.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\bjgau\\OneDrive\\Desktop\\BnsBazar- working on all button-4\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T04:41:49.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

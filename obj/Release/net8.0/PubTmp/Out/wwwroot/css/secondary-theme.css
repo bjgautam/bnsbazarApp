@@ -1,0 +1,17 @@
+﻿:root {
+    /* Dark mode theme */
+    --theme-colour-0: #001A29; /* Page background */
+    --theme-colour-1: #004466; /* Card background */
+    --theme-colour-2: #2FA8FF; /* Accent color */
+    /* Text contrast */
+    --theme-text-0: #EAF6FF; /* Main bright text */
+    --theme-text-1: #A2D4FF; /* Soft sub text */
+    --theme-text-2: #6BC6FF; /* Highlight */
+    /* NAVBAR text */
+    --theme-nav-text: #E8F3FF;
+    --navbar-bg: #00334A;
+    /* PRODUCT CARDS */
+    --theme-card-bg: #032B3F;
+    --theme-card-text: #EAF6FF;
+    --theme-card-secondary: #A2D4FF;
+}
